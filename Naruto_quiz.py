@@ -506,6 +506,8 @@ def render_sidebar():
         st.progress(answered / total if total else 0)
         st.markdown("---")
         st.caption(f"Shinobi name: **{st.session_state.player_name}**")
+        st.markdown("---")
+        st.markdown("OK -Yellow Flash Of the Leaf")
 
 
 def render_welcome():
